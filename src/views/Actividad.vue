@@ -2,8 +2,6 @@
   .curso-main-container.pb-3
     BannerInterno(icono="far fa-question-circle" titulo="Actividad didáctica")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      // Para cuestionario usar: <ActividadController :cuestionario="cuestionario"/>
-      // Para parrafo usar: <ActividadController :parrafo="parrafo"/>
       #Actividad                
       <ActividadController :cuestionario="cuestionario"/>
   
@@ -19,489 +17,703 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
-      titulo: 'Cuestionario',
+      tema: 'Fundamentos del <em>mise en place</em> y elaboración de pastas',
+      titulo: 'Cuestionario Didáctico',
       introduccion:
-        '<b> Objetivo:</b> evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b>Objetivo:</b> evaluar los conocimientos adquiridos sobre <em>mise en place</em>, interpretación de receta estándar, normas de higiene, clasificación de pastas, técnicas de cocción, terminología gastronómica y normas de seguridad.',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!',
+      titulo_aprobado: '¡EXCELENTE!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
+      mensaje_aprobado:
+        '¡Excelente! Ha superado la actividad y demuestra sólidos conocimientos sobre el componente formativo.',
+      mensaje_reprobado:
+        'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
       preguntas: [
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Qué significa la expresión francesa "<em>mise en place</em>" en el contexto de la cocina profesional?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto:
+                'El proceso de cocción de los alimentos a temperatura controlada.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
-              esCorrecta: true,
+                'La limpieza del área de trabajo después de finalizar el servicio.',
+              esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
-              esCorrecta: false,
+              texto:
+                'La organización meticulosa de todos los elementos necesarios antes de comenzar a cocinar.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto:
+                'La técnica de decoración de platos con salsas y vegetales.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            'Muy bien. La "<em>mise en place</em>" significa literalmente "poner en su lugar" y se refiere a la organización previa de ingredientes, utensilios y equipos antes de iniciar la preparación de alimentos.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            '¿Cuál de los siguientes no es un beneficio de implementar un riguroso <em>mise en place</em> en la cocina profesional?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Estandarización de la calidad de los platos.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Auto</em>',
+              texto: 'Reducción del tiempo de respuesta durante el servicio.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Text</em>',
+              texto: 'Aumento del desperdicio de alimentos.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'Control preciso de los costos por porción.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Correcto. El <em>mise en place</em> reduce el desperdicio de alimentos, no lo aumenta, ya que permite planificar las cantidades exactas necesarias para cada servicio.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto: '¿Cuál es el tamaño aproximado del corte en brunoise?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
+              texto: '5 mm x 5 mm x 5 mm.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
-              esCorrecta: false,
+              texto: '2 mm x 2 mm x 2 mm.',
+              esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
+              texto: '3-4 cm x 1-2 mm x 1-2 mm.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
+              texto: '1-2 cm x 1-2 cm x 1-2 cm.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente. El corte brunoise es de 2 mm x 2 mm x 2 mm y se utiliza para guarniciones finas, salsas y sopas.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+            '¿Qué establece el Decreto 3075 de 1997 del Ministerio de Salud de Colombia?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Las normas para la certificación de negocios gastronómicos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Las condiciones básicas de saneamiento en establecimientos fabricantes de alimentos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'El código de colores para la separación de residuos sólidos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Los requisitos para la exportación de alimentos procesados.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Muy bien. El Decreto 3075 de 1997 reglamenta las condiciones básicas de saneamiento en establecimientos fabricantes de alimentos, incluyendo las Buenas Prácticas de Manufactura (BPM).',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 5,
+          texto:
+            '¿Qué tipo de microorganismo está comúnmente asociado a alimentos como huevos, pollo y mayonesa casera?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
+              texto: 'Escherichia coli.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Layer</em>',
+              texto: 'Listeria monocytogenes.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Board</em>',
+              texto: 'Salmonella spp.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'Staphylococcus aureus.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Correcto. La Salmonella spp. se encuentra comúnmente en huevos, pollo y mayonesa casera, y sus síntomas incluyen diarrea, fiebre y vómito.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+            '¿Cuál es la concentración recomendada de cloro para la desinfección de mesones de acero inoxidable?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Borrar componentes.',
+              texto: '50 ppm.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
+              texto: '100 ppm.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
+              texto: '200 ppm.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Seleccionar y editar capas.',
+              texto: '500 ppm.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Así es. La concentración recomendada de cloro para mesones de acero inoxidable es de 100 ppm, con un tiempo de contacto de 2-3 minutos.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿Qué tipo de pasta se caracteriza por ser larga, plana y muy ancha (15-20 mm), y se utiliza idealmente para salsas de caza y ragús contundentes?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
+              texto: 'Spaghetti.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
-              esCorrecta: true,
+              texto: 'Fettuccine.',
+              esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
-              esCorrecta: false,
+              texto: 'Pappardelle.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
+              texto: 'Linguine.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente. La pappardelle es una pasta larga, plana y muy ancha (15-20 mm), ideal para salsas de caza y ragús contundentes como el pappardelle al cinghiale.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
+            '¿Qué significa el término italiano "al dente" en la cocción de la pasta?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Que la pasta está completamente blanda y pastosa.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Que la pasta está cocida pero ofrece cierta resistencia al morderla.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Que la pasta se ha cocido en exceso y se ha deshecho.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Que la pasta se ha cocinado con abundante aceite de oliva.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Muy bien. "al dente" significa "al diente" en italiano y describe el punto de cocción ideal donde la pasta está cocida pero aún firme al morderla.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 9,
+          texto:
+            '¿Cuál es la cantidad mínima de agua recomendada por cada 120 gramos de pasta?',
+          imagen: '@/assets/actividad/imagen1.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: '0.5 litros.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: '1 litro.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: '1.5 litros.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: '2 litros.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Correcto. La cantidad mínima recomendada es de 1 litro de agua por cada 120 gramos de pasta. Usar más agua ayuda a mantener la temperatura constante durante la cocción.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 10,
+          texto:
+            '¿Cuál es la función principal del gluten en la masa de la pasta?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Aportar color amarillo a la pasta.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Brindar elasticidad y estructura a la masa.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Endulzar la masa de forma natural.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Acelerar el proceso de secado de la pasta.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente. El gluten es una proteína que brinda elasticidad, resistencia y estructura a la masa de la pasta, permitiendo que se estire sin romperse.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+            '¿Qué tipo de riesgo previene el uso de calzado antideslizante en una cocina profesional?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Riesgo biológico (contaminación por bacterias).',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Riesgo químico (contacto con desinfectantes).',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Riesgo físico (caídas por pisos resbaladizos).',
               esCorrecta: true,
             },
+            {
+              id: 'd',
+              texto: 'Riesgo ergonómico (posturas inadecuadas).',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Muy bien. El calzado antideslizante previene riesgos físicos, específicamente caídas causadas por pisos resbaladizos, que son comunes en áreas de cocina.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 12,
-          texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
-          imagen: '@/assets/actividad/imagen3.png',
+          texto: '¿Cuál de los siguientes es un tipo de pasta rellena?',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Fusilli.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Penne.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Ravioli.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Stelline.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Correcto. Los ravioli son una pasta rellena, generalmente en forma de cuadrados, que pueden contener queso, carne, espinacas u otros ingredientes.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 13,
           texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+            '¿Qué establece la Resolución 2674 de 2013 del Ministerio de Salud y Protección Social de Colombia?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Las normas para la elaboración de pastas artesanales.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'El reglamento técnico sobre los requisitos sanitarios que deben cumplir las empresas de alimentos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Los requisitos para la importación de harinas y sémolas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Las normas para la certificación de chefs profesionales.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Muy bien. La Resolución 2674 de 2013 establece el reglamento técnico sobre los requisitos sanitarios que deben cumplir las empresas de alimentos, incluyendo la obligatoriedad de implementar POES.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
-          imagen: '@/assets/actividad/imagen4.png',
+            '¿Qué son los POES (Procedimientos Operativos Estandarizados de Saneamiento)?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Equipos de refrigeración para enfriar rápidamente los alimentos.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Un tipo de boquilla para decoración de pastas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Protocolos escritos que describen cómo realizar las tareas de limpieza y desinfección.',
               esCorrecta: true,
             },
+            {
+              id: 'd',
+              texto:
+                'Un método de rotación de inventarios (Primero en Entrar, Primero en Salir).',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente. Los POES son protocolos escritos que describen paso a paso las actividades de limpieza y desinfección de equipos, utensilios y superficies.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+            '¿Qué tipo de pasta se elabora con sémola de trigo duro y agua, se somete a un proceso de secado controlado y tiene una cocción más larga (8-12 minutos)?',
+          imagen: '@/assets/actividad/imagen3.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: "Pasta fresca casera (pasta fresca all'uovo).",
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Pasta fresca industrial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Pasta seca (pasta secca).',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Pasta de colores (con espinacas).',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Correcto. La pasta seca (pasta secca) se elabora con sémola de trigo duro y agua, se seca controladamente y tiene una cocción más larga (8-12 minutos).',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 16,
+          texto:
+            '¿Cuál es el sistema de colores recomendado para las tablas de cortar con el fin de prevenir la contaminación cruzada en la cocina?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto:
+                'Rojo: carnes rojas; marrón: productos cocinados; verde: frutas y verduras; blanco: pastas, quesos (lácteos) y pan.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Rojo: carnes rojas; marrón: productos cocinados; amarillo: carnes blancas; azul: pescados y mariscos; verde: frutas y verduras; blanco: pastas, quesos (lácteos) y pan.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Verde: frutas y verduras; blanco: pastas, quesos (lácteos) y pan; marrón: productos cocinados; amarillo: carnes blancas;',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Azul: pescados y mariscos; verde: frutas y verduras; blanco: pastas, quesos (lácteos) y pan.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-      ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
-      mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
-    },
-    parrafo: {
-      tema: 'Comprendiendo el diseño de presupuestos y estrategias de ahorro',
-      titulo: 'Completar frases',
-      introduccion:
-        '<b> Objetivo:</b> identificar conceptos clave relacionados con el presupuesto personal, la cultura del ahorro y la planificación financiera.',
-      instruccion:
-        'Complete correctamente los enunciados con la palabra que falta según los contenidos estudiados en el componente formativo.',
-      imagen: '@/assets/actividad/imagen1.png',
-      barajarPreguntas: true,
-      textos: [
-        {
-          id: 1,
-          texto:
-            'El [respuesta] personal es una herramienta que permite proyectar ingresos y egresos para mantener la estabilidad económica.',
-          respuesta: 'presupuesto',
+          mensaje_correcto:
+            'Correcto. El sistema completo de colores para tablas de cortar es: rojo: carnes rojas; marrón: productos cocinados; amarillo: carnes blancas; azul: pescados y mariscos; verde: frutas y verduras; blanco: pastas, quesos (lácteos) y pan.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
-          id: 2,
+          id: 17,
           texto:
-            'La constancia en el cumplimiento del presupuesto refleja un alto nivel de [respuesta] financiera.',
-          respuesta: 'disciplina',
+            '¿Cuál es el corte de verduras que se utiliza específicamente para fondos, caldos y estofados, con un tamaño aproximado de 1-2 cm x 1-2 cm x 1-2 cm?',
+          imagen: '@/assets/actividad/imagen1.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Brunoise.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Juliana.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Mirepoix.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Chiffonade.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Excelente. El corte mirepoix (1-2 cm x 1-2 cm x 1-2 cm) se utiliza específicamente para fondos, caldos y estofados.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
-          id: 3,
+          id: 18,
           texto:
-            'Ahorrar no es lo que sobra, sino lo que se [respuesta] guardar antes de gastar.',
-          respuesta: 'planifica',
+            '¿Qué significa el término italiano "sfoglia" en el contexto de la elaboración de pasta?',
+          imagen: '@/assets/actividad/imagen2.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'El proceso de cocción de la pasta en agua hirviendo con sal.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'La lámina de masa estirada que se utiliza para cortar pastas o como base para pastas rellenas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'La salsa de carne de cocción lenta típica para pastas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'El utensilio de madera utilizado para amasar la pasta a mano.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Correcto. La sfoglia es la lámina de masa estirada que se obtiene después del laminado y que se utiliza para cortar diferentes tipos de pasta o como base para pastas rellenas como ravioli o tortellini.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
-          id: 4,
+          id: 19,
           texto:
-            'Un gasto innecesario que puede eliminarse sin afectar la calidad de vida básica se denomina gasto [respuesta].',
-          respuesta: 'discrecional',
+            '¿Cuál es la técnica de cocción recomendada para las pastas rellenas como los ravioli o tortellini?',
+          imagen: '@/assets/actividad/imagen3.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Cocerlas en agua hirviendo sin remover para que no se rompan.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Colocarlas en el agua con cuidado y cocinarlas de dos en dos para que no se peguen.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Freírlas directamente en aceite caliente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Cocerlas en el horno sin precocción previa.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Muy bien. Las pastas rellenas deben colocarse en el agua con cuidado para que no se abran ni se rompan, y es mejor cocinarlas de dos en dos para que no se peguen entre sí.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
-          id: 5,
+          id: 20,
           texto:
-            'La cultura del ahorro promueve el uso responsable de los [respuesta] disponibles.',
-          respuesta: 'recursos',
-        },
-        {
-          id: 6,
-          texto:
-            'El estado de [respuesta] personales permite analizar la relación entre ingresos y egresos en un periodo determinado.',
-          respuesta: 'resultados',
-        },
-        {
-          id: 7,
-          texto:
-            'Cuando los ingresos son mayores que los egresos se generan una [respuesta] que puede destinarse al ahorro.',
-          respuesta: 'utilidad',
-        },
-        {
-          id: 8,
-          texto:
-            'Uno de los beneficios de ejecutar un presupuesto es la reducción del [respuesta] financiero.',
-          respuesta: 'estrés',
-        },
-        {
-          id: 9,
-          texto:
-            'Evitar gastos impulsivos y mantener límites presupuestales refleja [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 10,
-          texto:
-            'Contar con un fondo de [respuesta] permite enfrentar gastos inesperados sin afectar el presupuesto.',
-          respuesta: 'emergencia',
+            '¿Cuál de los siguientes es un tipo de pasta para sopa según la clasificación del componente formativo?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Farfalle.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Pappardelle.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Stelline.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Penne.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Correcto. Las Stelline son pastas en forma de estrellitas, clasificadas dentro de las "pastas para sopa" junto con los Ditalini, y se utilizan en sopas de verduras, caldos y minestrone.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
       ],
     },
   }),
 }
 </script>
+
+<style lang="sass"></style>
