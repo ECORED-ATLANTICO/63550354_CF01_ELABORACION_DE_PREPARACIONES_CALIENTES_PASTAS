@@ -86,7 +86,7 @@
     separador
     
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 1.2. Importancia del <em>mise en place</em> 
+      h2 1.2 Importancia del <em>mise en place</em> 
 
     img(src="@/assets/curso/tema1/img11.png", alt="")
     .row.justify-content-center.align-items-center.z-2.mb-4
@@ -99,21 +99,21 @@
           img(src="@/assets/curso/tema1/img12.png", data-aos="zoom-in")
       .col-lg-8.order-2.order-lg-1
         TabsA.color-acento-botones
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Estandarización de la calidad")
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Estandarización de la calidad").align-content-center
             p.mb-0 Al tener todos los ingredientes pesados y preparados previamente, se garantiza que cada plato se elabore con las mismas cantidades y especificaciones, asegurando uniformidad en sabor, textura y presentación.
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Reducción del tiempo de respuesta")
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Reducción del tiempo de respuesta").align-content-center
             p.mb-0 Durante el servicio, el tiempo es un recurso crítico. Un <em>mise en place</em> bien ejecutado permite que el cocinero se concentre únicamente en la cocción y el emplatado, sin interrupciones para buscar, pesar o preparar ingredientes.
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Minimización del desperdicio de alimentos")
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Minimización del desperdicio de alimentos").align-content-center
             p.mb-0 Al planificar las cantidades necesarias para cada servicio, se reduce el excedente de ingredientes preparados que podrían deteriorarse y desperdiciarse.
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Control de costos")
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Control de costos").align-content-center
             p.mb-0 El pesaje previo de ingredientes permite un control preciso de los costos por porción y facilita la gestión de inventarios.
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Seguridad laboral")
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Seguridad laboral").align-content-center
             p.mb-0 Un puesto de trabajo ordenado reduce significativamente el riesgo de accidentes, como cortes por manipulación apresurada de cuchillos o quemaduras por falta de organización alrededor de superficies calientes.
 
     separador
 
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 1.3. Procedimientos básicos en la cocina
+      h2 1.3 Procedimientos básicos en la cocina
 
     p.mb-4 Las procedimientos básicos en la cocina son los procedimientos fundamentales que todo profesional gastronómico debe dominar para ejecutar un mise en place eficiente. Estas operaciones incluyen:
 
@@ -333,7 +333,7 @@
     separador
 
     #t_1_6.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 1.6. Factores de conversión y escalado de recetas
+      h2 1.6 Factores de conversión y escalado de recetas
 
 
     .bloque-texto-g.bg-color-08.p-3.p-sm-4.p-md-5.mb-5

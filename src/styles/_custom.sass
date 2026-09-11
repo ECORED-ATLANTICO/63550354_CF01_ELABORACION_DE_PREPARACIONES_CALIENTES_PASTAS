@@ -186,12 +186,16 @@ figcaption
 
 ///////////////CUSTOM LINEA TIEMPO C//////////
 .linea-tiempo-c__header__btn--right, .linea-tiempo-c__header__btn--left
-  background-color: #F4B400
+  background-color: #09614D
+  color: #fff
 .tiempo-c__header__item__line-container:after, .linea-tiempo-c__header__item--before .linea-tiempo-c__header__item__line-container:after, .linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--before .linea-tiempo-c__header__item__line-container:before,
 .linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__line-container:before, .linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__dot:after
-  background-color: #678AEE !important
+  background-color: #09614D !important
 .linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--before .linea-tiempo-c__header__item__dot, .linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__dot
-  border-color: #678AEE
+  border-color: #09614D
+
+.linea-tiempo-c__header__btn:hover, .pasos-b__header__btn--left:hover, .pasos-b__header__btn--right:hover, .linea-tiempo-c__header__btn--left:hover, .linea-tiempo-c__header__btn--right:hover
+  border-color: #09614D
 
 // Global text styles
 figcaption
@@ -538,7 +542,8 @@ figcaption
   color: $color-sistema-texto
 .tabs-a__content-item
   display: flex
-  height: fit-content
+  // height: fit-content
+  height: 97%
 .tabs-a
   .row
     .mb-3
@@ -773,29 +778,55 @@ a, button, div
 .linea-tiempo-d__item.row.linea-tiempo-d__item--selected
   .col-auto.linea-tiempo-d__item__col-number
     .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
-      background-color: #FBA717 !important
+      background-color: #F9D6B7 !important
       color: $color-sistema-texto
 
 .linea-tiempo-d__item.row.linea-tiempo-d__item--selected
   .col
     .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
-      background-color: #F6F6F6
+      background-color: #FEF5ED
       background-size: cover
       background-position: center
 
 .linea-tiempo-d__item.row:not(.linea-tiempo-d__item--selected)
   .col-auto.linea-tiempo-d__item__col-number
     .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
-      background-color: #E6E6E6
+      background-color: #B5D0DB
     .linea-tiempo-d__item__dots:after
       border-left: 4px dotted #B3B2D4 !important
   .col
     .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
-      background-color: #D9D9D9 !important
+      background-color: #EBF6F2 !important
 
 .linea-tiempo-d__item__content__title
   @media screen and ( max-width: $bp-max-xs )
     height: 55px
+
+.color-2
+
+  // Linea Tiempo D Custom
+  .linea-tiempo-d__item.row.linea-tiempo-d__item--selected
+    .col-auto.linea-tiempo-d__item__col-number
+      .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+        background-color: #FF7027 !important
+        color: #fff
+
+  .linea-tiempo-d__item.row.linea-tiempo-d__item--selected
+    .col
+      .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+        background-color: #FFF6E8
+        background-size: cover
+        background-position: center
+
+  .linea-tiempo-d__item.row:not(.linea-tiempo-d__item--selected)
+    .col-auto.linea-tiempo-d__item__col-number
+      .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+        background-color: #DEE4F0
+      .linea-tiempo-d__item__dots:after
+        border-left: 4px dotted #B3B2D4 !important
+    .col
+      .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+        background-color: #E8F5D5 !important
 
 .br-01
   background-color: transparent
@@ -843,14 +874,17 @@ a, button, div
   background-color: #EFF5FC
 
 .bg-color-12
-  background-color: #EEF5FE
+  background-color: #FEFAF1
 
 .bg-color-13
   background-color: #B9B9B9 !important
   color: $color-sistema-texto
 
 .bg-color-14
-  background-color: #F7E4E4
+  background-color: #F8FCF4
+
+.bg-color-15
+  background-color: #EEF5FE
 
 .br-color-05
   border: 2px solid #5071A8 !important
@@ -1512,3 +1546,14 @@ a, button, div
   font-size: 0.65rem !important
   margin-top: 6px !important
   margin-right: 8px !important
+
+.pasos-a.color-primario .pasos-a__circle
+  background-color: #C6E697 !important
+
+.pasos-a.color-primario .pasos-a__numero::after
+  border-left-color: #62724A !important
+
+.pasos-a.color-primario .pasos-a__linea__esquina__linea
+  border-color: #62724A !important
+.pasos-a.color-primario .pasos-a__linea .hor-line
+  border-top-color: #62724A !important

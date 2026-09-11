@@ -75,7 +75,7 @@
     separador
 
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 2.2. Enfermedades transmitidas por alimentos (ETA)
+      h2 2.2 Enfermedades transmitidas por alimentos (ETA)
 
 
     img(src="@/assets/curso/tema2/img09.png", alt="")
@@ -99,22 +99,22 @@
                 th Prevención
             tbody
               tr
-                td.fw-bold.text-center <em>Salmonella spp.</em>
+                td(style="font-weight: normal;").text-center <em>Salmonella spp.</em>
                 td.text-center Huevos, pollo, mayonesa casera
                 td.text-center Diarrea, fiebre, vómito
                 td.text-center Cocción adecuada, refrigeración
               tr
-                td.fw-bold.text-center <em>Escherichia coli</em>
+                td(style="font-weight: normal;").text-center <em>Escherichia coli</em>
                 td.text-center Carnes crudas, vegetales contaminados
                 td.text-center Diarrea sanguinolenta, cólicos
                 td.text-center Cocción >70 °C, lavado de vegetales
               tr
-                td.fw-bold.text-center <em>Staphylococcus aureus</em>
+                td(style="font-weight: normal;").text-center <em>Staphylococcus aureus</em>
                 td.text-center Ensaladas, salsas, productos de pastelería
                 td.text-center Náuseas, vómitos, calambres
                 td.text-center Refrigeración, higiene de manos
               tr
-                td.fw-bold.text-center <em>Listeria monocytogenes</em>
+                td(style="font-weight: normal;").text-center <em>Listeria monocytogenes</em>
                 td.text-center Quesos blandos, embutidos
                 td.text-center Fiebre, dolor muscular
                 td.text-center Cocción, refrigeración adecuada
@@ -244,7 +244,7 @@
         figure
           img(src="@/assets/curso/tema2/img21.png", data-aos="zoom-in")
       .col-lg-7.order-1.order-lg-1
-        LineaTiempoD.color-secundario
+        LineaTiempoD.color-secundario.color-2
           p(numero="1" titulo="Prelavado") Eliminar residuos sólidos con agua y cepillo.
           p(numero="2" titulo="Lavado") Aplicar detergente con agua caliente (>40 °C), frotar con esponja o cepillo.
           p(numero="3" titulo="Enjuague") Retirar completamente el detergente con agua potable.
@@ -270,27 +270,27 @@
                 th Tiempo de contacto
             tbody
               tr
-                td Tablas de cortar
+                td(style="font-weight: normal;") Tablas de cortar
                 td Cloro
                 td 100 ppm
                 td 2 minutos
               tr
-                td Mesones de acero inoxidable
+                td(style="font-weight: normal;") Mesones de acero inoxidable
                 td Cloro o amonio cuaternario
                 td 100 ppm / 200 ppm
                 td 2-3 minutos
               tr
-                td Utensilios (cuchillos, espátulas)
+                td(style="font-weight: normal;") Utensilios (cuchillos, espátulas)
                 td Cloro
                 td 100 ppm
                 td 1 minuto
               tr
-                td Verduras y frutas (desinfección)
+                td(style="font-weight: normal;") Verduras y frutas (desinfección)
                 td Cloro
                 td 50 ppm
                 td 15-20 minutos
               tr
-                td Pisos y paredes
+                td(style="font-weight: normal;") Pisos y paredes
                 td Cloro
                 td 200 ppm
                 td 5-10 minutos
@@ -422,33 +422,33 @@
                 th Medida preventiva
             tbody
               tr
-                td.fw-bold Amasado manual
+                td(style="font-weight: normal;") Amasado manual
                 td Fatiga muscular, lesiones de muñeca
                 td Realizar pausas cada 15-20 minutos; alternar con otras tareas.
               tr
-                td.fw-bold Corte de pasta con cuchillo
+                td(style="font-weight: normal;") Corte de pasta con cuchillo
                 td Corte en dedos
                 td Usar técnica de "garra"; mantener cuchillo afilado (Corporación Favorita, 2018).
               tr
-                td.fw-bold Cocción en agua hirviendo
+                td(style="font-weight: normal;") Cocción en agua hirviendo
                 td Quemaduras por salpicaduras
                 td Incorporar la pasta suavemente, no "lanzarla"; usar pinzas largas.
               tr
-                td.fw-bold Escurrido de pasta
+                td(style="font-weight: normal;") Escurrido de pasta
                 td Quemaduras por vapor
                 td Usar colador metálico con mango largo; protegerse la mano con agarradera.
               tr
-                td.fw-bold Limpieza de equipos
+                td(style="font-weight: normal;") Limpieza de equipos
                 td Cortes (hojas de máquina), contacto con químicos
                 td Desconectar equipos antes de limpiar; usar guantes de protección química.
               tr
-                td.fw-bold Transporte de ollas grandes
+                td(style="font-weight: normal;") Transporte de ollas grandes
                 td Quemaduras, lesiones lumbares
                 td Usar ambas manos; doblar rodillas al levantar; no transportar ollas llenas a más de 50 % de capacidad.
 
     .row.mb-3.justify-content-center
       .col-lg-10
-        .bg-color-12.p-4.br-15
+        .bg-color-15.p-4.br-15
           .row.align-items-center
             .col-lg-auto.d-none.d-lg-block
               img(src="@/assets/curso/tema2/img30.svg", style="max-width: 90px;").mx-auto
