@@ -26,7 +26,7 @@
         figure
           img(src="@/assets/curso/tema4/img02.png", data-aos="zoom-in")
       .col-lg-7.order-1.order-lg-1
-        LineaTiempoD.color-secundario
+        LineaTiempoD.color-2
           p(numero="1" titulo="Cantidad de agua") La forma más recomendable para cocinar las pastas es con abundante cantidad de agua y un poco de sal. Aproximadamente se requiere un litro de agua por cada 120 gramos de pasta. Si se usa más agua es mejor, porque así es más fácil mantener la temperatura constante durante la cocción (Corporación Favorita, 2018, p. 12).
           p(numero="2" titulo="Sal") Calcular 10 g de sal (una cucharadita rasa) por cada litro de agua. La sal se añade cuando el agua ya está hirviendo, antes de incorporar la pasta.
           p(numero="3" titulo="Aceite de oliva") El aceite solo se agrega al agua en ciertos casos, por ejemplo, en láminas de pasta grandes (como las de lasaña) o en pastas frescas y delgadas que de otro modo se apelmazarían. Generalmente se usa con las pastas largas y planas como la lasaña porque tienden a pegarse. Se añade un poco de aceite en el agua de la cocción y se colocan las placas una a una (Corporación Favorita, 2018, p. 12).

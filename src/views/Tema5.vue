@@ -19,7 +19,7 @@
 
    
     .row.justify-content-center.mb-4
-      .col-lg-12.col-xl-10
+      .col-lg-12.col-xl-12
         p.mb-2 El dominio de la terminología técnica internacional es una competencia fundamental para cualquier profesional de la gastronomía, ya que unifica los criterios de comunicación dentro de la cocina y garantiza la correcta ejecución de las recetas tradicionales. 
 
         p.mb-0 En la elaboración de pastas, la mayoría de los conceptos operativos provienen del italiano, el idioma cuna de esta tradición culinaria. Con el fin de facilitar la apropiación conceptual, en la siguiente tabla se compila el vocabulario esencial para la preparación de pastas, detallando sus traducciones técnicas y sus significados específicos en el contexto gastronómico actual.

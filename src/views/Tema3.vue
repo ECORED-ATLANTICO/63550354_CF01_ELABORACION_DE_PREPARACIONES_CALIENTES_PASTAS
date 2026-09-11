@@ -19,7 +19,7 @@
 
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-12
-        .bloque-texto-g.bg-color-08.p-3.p-sm-3.p-md-4.mb-0
+        .bloque-texto-g.bg-color-08.p-3.p-sm-3.p-md-5.mb-0
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require_src('@/assets/curso/tema3/img02.png')})`}"
           )
@@ -46,7 +46,7 @@
 
     p.mb-4 La pasta era cocinada frecuentemente con leche o caldo y se servía con azúcar, queso, mantequilla y especias dulzonas. No fue hasta el siglo XVIII que se empezó a establecer algún orden en relación a los hábitos culinarios, empezando a dividir los platillos dulces de los condimentados. Desde esa época se empezó a servir la pasta más o menos como se hace ahora, con salsas basadas en tomates, carne y verduras (La Moderna, 2005, p. 12).
 
-    .bg-color-14.p-4.br-15.text-center.mb-5
+    .bg-color-02.p-4.br-15.text-center.mb-5
       p.mb-0 A continuación, se ilustra con una línea de tiempo, los orígenes y evolución de la pasta:
 
     .tarjeta.bg-color-09.p-4.mb-5
@@ -209,7 +209,8 @@
         .bg-color-12.p-3.br-15
           p.mb-0 <b>Pasta rellena (<em>pasta ripiena</em>):</b> láminas de pasta fresca o seca que envuelven un relleno a base de carnes, quesos, verduras o pescados (como <em>ravioli</em>, <em>tortellini</em>, <em>cannelloni</em>). Requiere sellado hermético en los bordes para evitar la fuga del relleno durante la cocción.
 
-    .row.justify-content-center.mb-5
+
+    .row.justify-content-center.mb-4
       .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Tabla 8.
@@ -292,6 +293,7 @@
                 td Tubitos cortos
                 td <em>Minestrone</em>, sopas de legumbres
 
+    p.mb-5 La pasta se presenta en una gran variedad de formas y tamaños, y cada una posee características que la hacen más adecuada para determinados tipos de preparaciones. A continuación, se presentan algunos de los principales tipos de pasta, junto con sus características, aplicaciones y platos típicos.
     .bg-full-width.bg-fondo-01.p-5
       SlyderA(tipo="b").bg-color-white.p-4.tarjeta
         .tarjeta.p-4.h-100
