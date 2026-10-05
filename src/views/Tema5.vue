@@ -27,7 +27,7 @@
     .row.justify-content-center.mb-4
       .col-lg-12.col-xl-10
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-          h5 Tabla 11.
+          h5 Tabla 10.
           span Términos básicos de la pasta
         .tabla-a.tb-custom.mb-0
           table

@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero.bg-color-13
         span(style="color: #12263F !important") 1
-      h1 <em>Mise en place</em> y receta estandar
+      h1 <em>Mise en place</em> y receta estándar
 
     img(src="@/assets/curso/tema1/img01.png", alt="")
     .row.justify-content-center.align-items-center.z-2.mb-4
@@ -60,21 +60,21 @@
               .col-8
                 img(src='@/assets/curso/tema1/img07.svg' alt='', style="width: 90px; height: 90px; ").mx-auto
             h4.text-center Preparación de ingredientes
-            p.text-center.mb-0 pesaje, lavado, pelado, corte y porcionado de materias primas.
+            p.text-center.mb-0 Pesaje, lavado, pelado, corte y porcionado de materias primas.
 
           .tarjeta.tarjeta--blanca.shadow-sm.bg-color-8.p-4.h-100
             .row.justify-content-center.mb-3
               .col-8
                 img(src='@/assets/curso/tema1/img08.svg' alt='', style="width: 90px; height: 90px; ").mx-auto
             h4.text-center Alistamiento de fondos
-            p.text-center.mb-0 elaboración previa de bases líquidas (fondos de verduras, carnes o pescados).
+            p.text-center.mb-0 Elaboración previa de bases líquidas (fondos de verduras, carnes o pescados).
 
           .tarjeta.tarjeta--blanca.shadow-sm.bg-color-8.p-4.h-100
             .row.justify-content-center.mb-3
               .col-8
                 img(src='@/assets/curso/tema1/img09.svg' alt='', style="width: 90px; height: 90px; ").mx-auto
             h4.text-center Verificación de equipos
-            p.text-center.mb-0  comprobación del correcto funcionamiento de hornos, ollas, sartenes y demás equipos de cocción.
+            p.text-center.mb-0 Comprobación del correcto funcionamiento de hornos, ollas, sartenes y demás equipos de cocción.
 
     .container
       .row.align-items-center.bg-color-02.p-4.mb-4.br-15
@@ -91,7 +91,7 @@
     img(src="@/assets/curso/tema1/img11.png", alt="")
     .row.justify-content-center.align-items-center.z-2.mb-4
       .col-lg-10(data-aos="fade-right")
-        p.banner-text El <em>mise en place</em> no es una actividad accesoria o decorativa; es una necesidad operativa que impacta directamente en la calidad del producto final, la eficiencia del servicio, la rentabilidad del negocio y la seguridad del personal. A continuación se enumeran los beneficios fundamentales de implementar un riguroso <em>mise en place</em>:
+        p.banner-text El <em>mise en place</em> no es una actividad accesoria o decorativa; es una necesidad operativa que impacta directamente en la calidad del producto final, la eficiencia del servicio, la rentabilidad del negocio y la seguridad del personal. A continuación, se enumeran los beneficios fundamentales de implementar un riguroso <em>mise en place</em>:
 
     .row.mb-4.justify-content-center.align-items-center
       .col-md-8.col-lg-4.mb-4.mb-lg-0.order-1.order-lg-2
@@ -115,7 +115,7 @@
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 1.3 Procedimientos básicos en la cocina
 
-    p.mb-4 Las procedimientos básicos en la cocina son los procedimientos fundamentales que todo profesional gastronómico debe dominar para ejecutar un mise en place eficiente. Estas operaciones incluyen:
+    p.mb-4 Las procedimientos básicos en la cocina son los procedimientos fundamentales que todo profesional gastronómico debe dominar para ejecutar un <em>mise en place</em> eficiente. Estas operaciones incluyen:
 
     
     .bg-color-03.p-4.br-15.mb-5
@@ -198,7 +198,7 @@
           img(src="@/assets/curso/tema1/img15.png", data-aos="zoom-in")
       .col-lg-7
         .br-15.overflow-hidden.shadow-sm
-          .p-2.text-center.fw-bold(style="background-color: #FED57B;") Preparación de fondo de verduras (para 2 litros)
+          .p-2.text-center.fw-bold(style="background-color: #FED57B;") Preparación de fondo de caldo de verduras (para 2 litros)
           .p-4(style="background-color: #FEF6E4;").mb-0
             .row.align-items-start
               .col-lg-4.mb-4.mb-lg-0
@@ -215,7 +215,7 @@
               .col-lg-8
                 .p-4.br-15(style="background-color: #E8F5D5;")
                   p.fw-bold.mb-1 Procedimiento
-                  p.mb-0 Lavar, pelar y cortar las verduras en trozos grandes (<em>paysanne</em>). Colocar las verduras en una olla grande y cubrir con agua fría. Agregar las hierbas y la pimienta. Llevar a ebullición, luego reducir el fuego y mantener a fuego lento (sin hervir) durante 45 minutos. Retirar del fuego, colar con un colador chino fino y dejar enfriar. Almacenar en refrigeración por máximo 3 días o congelar.
+                  p.mb-0 Lavar, pelar y cortar las verduras en trozos grandes (<em>paysanne</em>). Colocar las verduras en una olla grande y cubrir con agua fría. Agregar las hierbas y la pimienta. Llevar a ebullición, luego reducir el fuego y mantener a fuego lento (sin hervir) durante 45 minutos. Retirar del fuego, colar con un colador chino fino y dejar enfriar. Almacenar en refrigeración por máximo tres días o congelar.
 
     separador
 
@@ -367,7 +367,7 @@
           .p-2.text-center.fw-bold(style="background-color: #FED57B;") Conversión y escalado de 4 a 10 porciones
           .p-4(style="background-color: #FEF6E4;").mb-0
             .p-4.br-15(style="background-color: #E8F5D5;")
-              p.mb-3 Si una receta está diseñada para 4 porciones y se necesitan 10 porciones, siga el siguiente proceso para hacer la conversión:
+              p.mb-3 Si una receta está diseñada para 4 porciones y se necesitan 10 porciones, sigue el siguiente proceso para la conversión:
               p.mb-0 <b>FC = 10/4 = 2,5.</b> Cada ingrediente de la receta original debe multiplicarse por 2,5. Es decir, si la receta original requiere 200 g de harina, la nueva cantidad será 200 g x 2,5 = 500 g de harina.
 
     .container

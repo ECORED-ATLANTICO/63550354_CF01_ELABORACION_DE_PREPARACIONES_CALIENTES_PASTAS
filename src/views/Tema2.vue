@@ -207,7 +207,7 @@
     separador
 
     #t_2_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 2.5 Limpieza y desinfección en la cocina
+      h2 2.5 Procedimientos de limpieza y desinfección (POES)
 
     img(src="@/assets/curso/tema2/img18.png", alt="")
     .row.justify-content-center.align-items-center.z-2.mb-4
@@ -237,7 +237,7 @@
           img.titulo-con-imagen__imagen(src="@/assets/curso/img-subtitulo.svg")
           h3.titulo-con-imagen__texto Procedimiento estándar para limpieza y desinfección de superficies y utensilios
 
-    p.mb-5 La limpieza y desinfección son procesos complementarios pero distintos, ambos esenciales para garantizar la inocuidad de los alimentos. La limpieza elimina los residuos orgánicos (grasas, proteínas, carbohidratos) mediante detergentes, agua y fricción mecánica. La desinfección reduce la carga microbiana a niveles seguros utilizando agentes químicos (cloro, amonio cuaternario) o físicos (calor). A continuación se presenta el procedimiento estándar de seis pasos que debe aplicarse de manera sistemática en toda cocina profesional.
+    p.mb-5 La limpieza y desinfección son procesos complementarios pero distintos, ambos esenciales para garantizar la inocuidad de los alimentos. La limpieza elimina los residuos orgánicos (grasas, proteínas, carbohidratos) mediante detergentes, agua y fricción mecánica. La desinfección reduce la carga microbiana a niveles seguros utilizando agentes químicos (cloro, amonio cuaternario) o físicos (calor). A continuación, se presenta el procedimiento estándar de seis pasos que debe aplicarse de manera sistemática en toda cocina profesional.
 
     .row.mb-5.justify-content-center.align-items-center
       .col-md-8.col-lg-5.mb-4.mb-lg-0.order-1.order-lg-2
@@ -282,12 +282,12 @@
               tr
                 td(style="font-weight: normal;") Utensilios (cuchillos, espátulas)
                 td Cloro
-                td 100 ppm
+                td 50 ppm
                 td 1 minuto
               tr
                 td(style="font-weight: normal;") Verduras y frutas (desinfección)
                 td Cloro
-                td 50 ppm
+                td 50-100 ppm
                 td 15-20 minutos
               tr
                 td(style="font-weight: normal;") Pisos y paredes
@@ -390,13 +390,14 @@
             .tarjeta.p-4.h-100
               p.mb-0 <b>Máquinas de pasta:</b> las máquinas de pasta manuales o eléctricas son herramientas de gran utilidad pero requieren precauciones específicas: no introducir los dedos cerca de los rodillos mientras la máquina está en funcionamiento; usar siempre el protector de seguridad si la máquina lo incluye; limpiar la máquina solo después de desconectarla (en modelos eléctricos); no forzar el paso de masas demasiado gruesas; ajustar gradualmente la abertura de los rodillos (Bernasconi & Teubner, 2004).
             .tarjeta.p-4.h-100
-              p.mb-0 <b>Herramientas de corte (cuchillos y cortadores):</b> mantener las hojas perfectamente afiladas para evitar resbalones y sobreesfuerzos; emplear siempre tablas de picar estables sobre bases antideslizantes; utilizar la técnica de la "garra" para proteger las yemas de los dedos al cortar; no dejar cuchillos sumergidos en fregaderos con agua jabonosa donde no sean visibles.
+              p.mb-0 <b>Cuchillos:</b> los accidentes con cuchillos son una de las principales causas de lesiones en cocina. Precauciones: mantener los cuchillos siempre afilados (un cuchillo desafilado requiere más fuerza y es más peligroso); usar la técnica correcta de corte, manteniendo los dedos de la mano que sujeta el alimento encogidos (posición de "garra"); no dejar cuchillos sumergidos en agua con jabón (pueden no verse y causar cortes al introducir la mano); transportar cuchillos con la punta hacia abajo y el filo hacia atrás; usar guante de malla de seguridad al utilizar mandolinas o cortadores manuales (Corporación Favorita, 2018).
             .tarjeta.p-4.h-100
-              p.mb-0 <b>Equipos térmicos (estufas y marmitas):</b> comprobar el correcto funcionamiento de los quemadores y las válvulas de gas antes de encender; manipular recipientes pesados con agua caliente usando asas térmicas y apoyo auxiliar; incorporar alimentos e ingredientes suavemente en agua hirviendo para prevenir salpicaduras de agua o vapor.
-            .tarjeta.p-4.h-100
-              p.mb-0 <b>Mantenimiento e higiene de equipos:</b> realizar revisiones periódicas del estado eléctrico y mecánico de las amasadoras y sobadoras; verificar que los sistemas de parada de emergencia funcionen correctamente antes de iniciar cualquier jornada de producción.
-            .tarjeta.p-4.h-100
-              p.mb-0 <b>Protección personal en operación:</b> hacer uso obligatorio de delantales resistentes al calor, guantes de malla metálica para cortes de alta intensidad y calzado antideslizante impermeable en la zona de cocción y fregado.
+              p.mb-0 <b>Equipos térmicos:</b> las quemaduras por agua hirviendo, vapor y superficies calientes son frecuentes en la cocción de pastas. Precauciones: usar agarraderas o paños secos (nunca húmedos) para manipular ollas calientes; abrir las ollas inclinando la tapa en dirección opuesta al cuerpo para que el vapor se aleje; mantener los mangos de las ollas hacia el interior de la cocina, no hacia el pasillo; usar guantes térmicos para extraer bandejas del horno.
+
+    separador
+
+    #t_2_8.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 2.8 Prevención de accidentes laborales
 
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-8.mb-4.mb-lg-0

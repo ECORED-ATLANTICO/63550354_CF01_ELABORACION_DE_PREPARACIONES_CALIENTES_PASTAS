@@ -55,7 +55,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-          h5 Tabla 9.
+          h5 Tabla 8.
           span Tiempos de cocción orientativos según tipo de pasta
         .tabla-a.tb-custom.mb-3
           table
@@ -167,7 +167,7 @@
     .row.justify-content-center.mb-3
       .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-          h5 Tabla 10.
+          h5 Tabla 9.
           span Errores comunes en la cocción y su corrección
         .tabla-a.tb-custom.mb-3
           table

@@ -69,7 +69,7 @@ export default {
           },
           {
             numero: '1.5',
-            titulo: 'Estructura de una receta estándar',
+            titulo: 'Estructura de la receta estándar',
             hash: 't_1_5',
           },
           {
@@ -238,7 +238,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/63550354_CF01_DU.pdf',
+        download: 'downloads/63550354_CF01_CFA.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -407,7 +407,7 @@ export default {
         },
         {
           nombre: 'Jair Enrique Coll Gallardo',
-          cargo: 'Evaluadora instruccional',
+          cargo: 'Evaluador instruccional',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
