@@ -101,7 +101,8 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Cuál es el tamaño aproximado del corte en <em>brunoise</em>?',
+          texto:
+            '¿Cuál es el tamaño aproximado del corte en <em>brunoise</em>?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
