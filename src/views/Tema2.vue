@@ -90,7 +90,7 @@
           span Principales microorganismos causantes de ETA en la cocina
         .tabla-a.color-acento-contenido.tb-custom.mb-0
           table
-            caption(style="font-weight: normal;") Nota. SENA, (2026).
+            caption(style="font-weight: normal;") Nota. Adaptado de la Organización Mundial de la Salud (OMS, 2023).
             thead
               tr
                 th Microorganismo
@@ -130,7 +130,7 @@
         p.mb-3 El marco normativo colombiano para la manipulación de alimentos se centra en garantizar la inocuidad y proteger la salud pública a través de regulaciones clave.
         
         .p-4.br-15.mb-3(style="background-color: #E8F5D5;")
-          p.mb-0 La <b>Resolución 2674 de 2013</b> es el reglamento sanitario vigente que establece los requisitos de higiene, capacitación obligatoria de 10 horas anuales para manipuladores, infraestructura y planes de saneamiento.
+          p.mb-0 La Resolución 2674 de 2013 es el reglamento sanitario vigente que establece los requisitos de higiene, capacitación obligatoria de 10 horas anuales para manipuladores, infraestructura y planes de saneamiento.
 
         p.mb-0 Como antecedente, el Decreto 3075 de 1997 introdujo las Buenas Prácticas de Manufactura (BPM), mientras que la Resolución 3168 de 2015 optimiza los trámites automáticos de registros sanitarios ante el Invima.
 
@@ -212,7 +212,7 @@
     img(src="@/assets/curso/tema2/img18.png", alt="")
     .row.justify-content-center.align-items-center.z-2.mb-4
       .col-lg-10(data-aos="fade-right")
-        p.banner-text La limpieza y la desinfección son dos procesos complementarios pero diferentes que deben ejecutarse de manera secuencial en todas las áreas, equipos y utensilios de la cocina.
+        p.banner-text La limpieza y desinfección son dos procesos distintos pero complementarios que deben realizarse de manera sistemática en la cocina profesional para garantizar la inocuidad de los alimentos y prevenir enfermedades transmitidas por alimentos (ETA).
 
     .row.mb-5.mb-lg-5.justify-content-center.align-items-center
       .col-lg-3.col-md-8.mb-4.mb-lg-0.order-2.order-lg-2
@@ -261,7 +261,7 @@
           span Concentraciones de desinfectantes para diferentes aplicaciones
         .tabla-a.color-acento-contenido.tb-custom.mb-0
           table
-            caption(style="font-weight: normal;") Nota. SENA, (2026).
+            caption(style="font-weight: normal;") Nota. Adaptado de normativa sanitaria colombiana.
             thead
               tr
                 th Superficie o utensilio
@@ -321,7 +321,7 @@
           img.titulo-con-imagen__imagen(src="@/assets/curso/img-subtitulo.svg")
           h3.titulo-con-imagen__texto Tipos de peligros en la cocina
 
-    p.mb-4 Los tipos de peligro que se presentan en una cocina se clasifican en familias de riesgos enfocadas principalmente en la seguridad del trabajador (salud ocupacional) y la inocuidad alimentaria.
+    p.mb-4 Los tipos de peligro que se presentan en una cocina, se clasifican en tres familias de riesgos enfocados principalmente en la seguridad del trabajador (salud ocupacional).
 
     .bg-full-width.bg-fondo-01.p-5
       SlyderA(tipo="b").bg-color-white.p-4.tarjeta
@@ -350,7 +350,7 @@
               figure
                 img(src="@/assets/curso/tema2/img25.png", data-aos="zoom-in")
             .col-lg-8.order-1.order-lg-1.mb-4.mb-lg-0
-              h4 Peligros físicos (Mecánicos / Térmicos)
+              h4 Peligros físicos (mecánicos y térmicos)
               p.mb-2 Enfocados en accidentes directos por contacto térmico (hornos, ollas), cortes (cuchillos, cortadores) y caídas (pisos resbaladizos).
               p.mb-0 En la manipulación de alimentos, los peligros físicos en el producto incluyen objetos extraños que puedan causar atragantamiento o heridas al comensal, tales como fragmentos de vidrio (de luminarias sin protección), astillas de metal (de esponjillas de brillo o mantenimiento de equipos), plásticos, piedras en granos, joyas, botones, cabellos o uñas del manipulador.
 
@@ -388,7 +388,7 @@
         .bg-fondo-01.p-4
           SlyderA(tipo="b").bg-color-white.p-4.tarjeta
             .tarjeta.p-4.h-100
-              p.mb-0 <b>Máquinas de pasta:</b> las máquinas de pasta manuales o eléctricas son herramientas de gran utilidad pero requieren precauciones específicas: no introducir los dedos cerca de los rodillos mientras la máquina está en funcionamiento; usar siempre el protector de seguridad si la máquina lo incluye; limpiar la máquina solo después de desconectarla (en modelos eléctricos); no forzar el paso de masas demasiado gruesas; ajustar gradualmente la abertura de los rodillos (Bernasconi & Teubner, 2004).
+              p.mb-0 <b>Máquinas de pasta:</b> las máquinas de pasta manuales o eléctricas son herramientas de gran utilidad, pero requieren precauciones específicas: no introducir los dedos cerca de los rodillos mientras la máquina está en funcionamiento; usar siempre el protector de seguridad si la máquina lo incluye; limpiar la máquina solo después de desconectarla (en modelos eléctricos); no forzar el paso de masas demasiado gruesas; ajustar gradualmente la abertura de los rodillos (Bernasconi & Teubner, 2004).
             .tarjeta.p-4.h-100
               p.mb-0 <b>Cuchillos:</b> los accidentes con cuchillos son una de las principales causas de lesiones en cocina. Precauciones: mantener los cuchillos siempre afilados (un cuchillo desafilado requiere más fuerza y es más peligroso); usar la técnica correcta de corte, manteniendo los dedos de la mano que sujeta el alimento encogidos (posición de "garra"); no dejar cuchillos sumergidos en agua con jabón (pueden no verse y causar cortes al introducir la mano); transportar cuchillos con la punta hacia abajo y el filo hacia atrás; usar guante de malla de seguridad al utilizar mandolinas o cortadores manuales (Corporación Favorita, 2018).
             .tarjeta.p-4.h-100
@@ -415,7 +415,6 @@
           span Medidas preventivas para tareas específicas en la elaboración de pastas
         .tabla-a.color-acento-contenido.tb-custom.mb-0
           table
-            caption(style="font-weight: normal;") Nota. SENA, (2026).
             thead
               tr
                 th Tarea

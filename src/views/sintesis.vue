@@ -16,7 +16,7 @@
     
     p.mb-2 A su vez se abordan las normas de seguridad y salud ocupacional aplicadas a la elaboración de pastas, conformando un sistema de conocimiento integral que integra la organización, la técnica, la higiene y la seguridad. Su apropiación es el cimiento sobre el cual se construye la aplicación práctica de los estándares gastronómicos para garantizar la calidad, la inocuidad y la seguridad como pilares fundamentales de la cocina profesional. 
 
-    p.mb-4 Finalmente, el componente se orienta hacia la pasta, explorando su origen, definición, clasificación, formulación de pasta fresca casera y técnicas de cocción, con énfasis en el concepto de “al dente” y la terminología gastronómica.
+    p.mb-4 Finalmente, el componente se orienta hacia la pasta, explorando su origen, definición, clasificación, formulación de pasta fresca casera y técnicas de cocción, con énfasis en el concepto de <em>"al dente"</em> y la terminología gastronómica.
 
   
     .row.justify-content-center

@@ -101,7 +101,7 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Cuál es el tamaño aproximado del corte en brunoise?',
+          texto: '¿Cuál es el tamaño aproximado del corte en <em>brunoise</em>?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
@@ -127,7 +127,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Excelente. El corte brunoise es de 2 mm x 2 mm x 2 mm y se utiliza para guarniciones finas, salsas y sopas.',
+            'Excelente. El corte <em>brunoise</em> es de 2 mm x 2 mm x 2 mm y se utiliza para guarniciones finas, salsas y sopas.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -177,27 +177,27 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Escherichia coli.',
+              texto: '<em>Escherichia coli</em>.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Listeria monocytogenes.',
+              texto: '<em>Listeria monocytogenes</em>.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Salmonella spp.',
+              texto: '<em>Salmonella spp.</em>',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Staphylococcus aureus.',
+              texto: '<em>Staphylococcus aureus</em>.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Correcto. La Salmonella spp. se encuentra comúnmente en huevos, pollo y mayonesa casera, y sus síntomas incluyen diarrea, fiebre y vómito.',
+            'Correcto. La <em>Salmonella spp.</em> se encuentra comúnmente en huevos, pollo y mayonesa casera, y sus síntomas incluyen diarrea, fiebre y vómito.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -243,34 +243,34 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Spaghetti.',
+              texto: '<em>Spaghetti</em>.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Fettuccine.',
+              texto: '<em>Fettuccine</em>.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Pappardelle.',
+              texto: '<em>Pappardelle</em>.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Linguine.',
+              texto: '<em>Linguine</em>.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Excelente. La pappardelle es una pasta larga, plana y muy ancha (15-20 mm), ideal para salsas de caza y ragús contundentes como el pappardelle al cinghiale.',
+            'Excelente. La <em>pappardelle</em> es una pasta larga, plana y muy ancha (15-20 mm), ideal para salsas de caza y ragús contundentes como el <em>pappardelle al cinghiale</em>.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 8,
           texto:
-            '¿Qué significa el término italiano "al dente" en la cocción de la pasta?',
+            '¿Qué significa el término italiano "<em>al dente</em>" en la cocción de la pasta?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
@@ -298,7 +298,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Muy bien. "al dente" significa "al diente" en italiano y describe el punto de cocción ideal donde la pasta está cocida pero aún firme al morderla.',
+            'Muy bien. "<em>al dente</em>" significa "al diente" en italiano y describe el punto de cocción ideal donde la pasta está cocida pero aún firme al morderla.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -409,27 +409,27 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Fusilli.',
+              texto: '<em>Fusilli</em>.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Penne.',
+              texto: '<em>Penne</em>.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Ravioli.',
+              texto: '<em>Ravioli</em>.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Stelline.',
+              texto: '<em>Stelline</em>.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Correcto. Los ravioli son una pasta rellena, generalmente en forma de cuadrados, que pueden contener queso, carne, espinacas u otros ingredientes.',
+            'Correcto. Los <em>ravioli</em> son una pasta rellena, generalmente en forma de cuadrados, que pueden contener queso, carne, espinacas u otros ingredientes.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -512,7 +512,7 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: "Pasta fresca casera (pasta fresca all'uovo).",
+              texto: "Pasta fresca casera (<em>pasta fresca all'uovo</em>).",
               esCorrecta: false,
             },
             {
@@ -522,7 +522,7 @@ export default {
             },
             {
               id: 'c',
-              texto: 'Pasta seca (pasta secca).',
+              texto: 'Pasta seca (<em>pasta secca</em>).',
               esCorrecta: true,
             },
             {
@@ -532,7 +532,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Correcto. La pasta seca (pasta secca) se elabora con sémola de trigo duro y agua, se seca controladamente y tiene una cocción más larga (8-12 minutos).',
+            'Correcto. La pasta seca (<em>pasta secca</em>) se elabora con sémola de trigo duro y agua, se seca controladamente y tiene una cocción más larga (8-12 minutos).',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -582,7 +582,7 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Brunoise.',
+              texto: '<em>Brunoise</em>.',
               esCorrecta: false,
             },
             {
@@ -592,24 +592,24 @@ export default {
             },
             {
               id: 'c',
-              texto: 'Mirepoix.',
+              texto: '<em>Mirepoix</em>.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Chiffonade.',
+              texto: '<em>Chiffonade</em>.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Excelente. El corte mirepoix (1-2 cm x 1-2 cm x 1-2 cm) se utiliza específicamente para fondos, caldos y estofados.',
+            'Excelente. El corte <em>mirepoix</em> (1-2 cm x 1-2 cm x 1-2 cm) se utiliza específicamente para fondos, caldos y estofados.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 18,
           texto:
-            '¿Qué significa el término italiano "sfoglia" en el contexto de la elaboración de pasta?',
+            '¿Qué significa el término italiano "<em>sfoglia</em>" en el contexto de la elaboración de pasta?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
@@ -638,14 +638,14 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Correcto. La sfoglia es la lámina de masa estirada que se obtiene después del laminado y que se utiliza para cortar diferentes tipos de pasta o como base para pastas rellenas como ravioli o tortellini.',
+            'Correcto. La <em>sfoglia</em> es la lámina de masa estirada que se obtiene después del laminado y que se utiliza para cortar diferentes tipos de pasta o como base para pastas rellenas como <em>ravioli</em> o <em>tortellini</em>.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 19,
           texto:
-            '¿Cuál es la técnica de cocción recomendada para las pastas rellenas como los ravioli o tortellini?',
+            '¿Cuál es la técnica de cocción recomendada para las pastas rellenas como los <em>ravioli</em> o <em>tortellini</em>?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
@@ -686,27 +686,27 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Farfalle.',
+              texto: '<em>Farfalle</em>.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Pappardelle.',
+              texto: '<em>Pappardelle</em>.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Stelline.',
+              texto: '<em>Stelline</em>.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Penne.',
+              texto: '<em>Penne</em>.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Correcto. Las Stelline son pastas en forma de estrellitas, clasificadas dentro de las "pastas para sopa" junto con los Ditalini, y se utilizan en sopas de verduras, caldos y minestrone.',
+            'Correcto. Las <em>stelline</em> son pastas en forma de estrellitas, clasificadas dentro de las "pastas para sopa" junto con los <em>ditalini</em>, y se utilizan en sopas de verduras, caldos y <em>minestrone</em>.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },

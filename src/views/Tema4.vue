@@ -10,7 +10,7 @@
     img(src="@/assets/curso/tema4/img01.png", alt="")
     .row.justify-content-center.align-items-center.z-2.mb-3
       .col-lg-10(data-aos="fade-right")
-        p.banner-text La cocción de la pasta es una operación aparentemente simple pero que requiere precisión y conocimiento de los parámetros fundamentales. Como señala el libro Italia al dente (Corporación Favorita, 2018, p. 12), el principal consejo es comprar una pasta de buena calidad para asegurar una cocción adecuada y excelente textura. La tradición italiana enseña a ser generosos con la comida.
+        p.banner-text La cocción de la pasta es una operación aparentemente simple pero que requiere precisión y conocimiento de los parámetros fundamentales. Como señala el libro Italia <em>al dente</em> (Corporación Favorita, 2018, p. 12), el principal consejo es comprar una pasta de buena calidad para asegurar una cocción adecuada y excelente textura. La tradición italiana enseña a ser generosos con la comida.
 
     separador
     
@@ -44,7 +44,7 @@
     img(src="@/assets/curso/tema4/img03.png", alt="")
     .row.justify-content-center.align-items-center.z-2.mb-3
       .col-lg-10(data-aos="fade-right")
-        p.banner-text El comportamiento hidrodinámico de la pasta durante su preparación térmica está directamente ligado a su geometría, grosor y estado de conservación (fresca o seca). Lograr el punto óptimo de gelatinización del almidón y desnaturalización de las proteínas —comúnmente denominado al dente— requiere que el operario o cocinero adapte los tiempos de exposición, las temperaturas y la relación agua-sal a las especificaciones físicas de la masa. 
+        p.banner-text El comportamiento hidrodinámico de la pasta durante su preparación térmica está directamente ligado a su geometría, grosor y estado de conservación (fresca o seca). Lograr el punto óptimo de gelatinización del almidón y desnaturalización de las proteínas —comúnmente denominado <em>al dente</em>— requiere que el operario o cocinero adapte los tiempos de exposición, las temperaturas y la relación agua-sal a las especificaciones físicas de la masa. 
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10 
@@ -59,7 +59,7 @@
           span Tiempos de cocción orientativos según tipo de pasta
         .tabla-a.tb-custom.mb-3
           table
-            caption(style="font-weight: normal;") Nota. Adaptado de Bernasconi y Teubner (2004); Corporación Favorita (2018) y La Moderna (2005).
+            //- caption(style="font-weight: normal;") Nota. Adaptado de Bernasconi y Teubner (2004); Corporación Favorita (2018) y La Moderna (2005).
             thead
               tr
                 th Tipo de pasta
@@ -98,7 +98,7 @@
     separador
 
     #t_4_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 4.3 Términos de cocción: al dente y sus implicaciones
+      h2 4.3 Términos de cocción: <em>al dente</em> y sus implicaciones
 
 
     .bloque-texto-g.bloque-texto-g.bg-color-08.p-3.p-sm-4.p-md-5.mb-5
@@ -106,7 +106,7 @@
         :style="{'background-image': `url(${require_src('@/assets/curso/tema4/img05.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 El término <em>al dente</em> ("al diente" en italiano) describe el punto de cocción ideal de la pasta, en el que esta está cocida pero aún conserva cierta firmeza y resistencia al morderla. Según el libro <em>Italia al dente</em> (Corporación Favorita, 2018, p. 12), el término <em>al dente</em> significa que la pasta debe estar tierna pero con una textura firme. El tiempo que tarda en adquirir este estado depende de los ingredientes de la pasta, de su forma y grosor.
+        p.mb-0 El término al diente ("<em>al dente</em>" en italiano) describe el punto de cocción ideal de la pasta, en el que esta está cocida pero aún conserva cierta firmeza y resistencia al morderla. Según el libro Italia <em>al dente</em> (Corporación Favorita, 2018, p. 12), el término <em>al dente</em> significa que la pasta debe estar tierna pero con una textura firme. El tiempo que tarda en adquirir este estado depende de los ingredientes de la pasta, de su forma y grosor.
 
     .bg-color-14.p-4.br-15.text-center.mb-5
       p.mb-0 Bernasconi y Teubner (2004, p. 109) señalan que únicamente probando la pasta se puede comprobar cuándo está <em>al dente</em>.
@@ -136,7 +136,7 @@
           ul.lista-ul--color.mb-0.ms-0.ms-lg-5
             li.d-flex.mb-2
               i.fas.fa-circle(style="color: #89A068; font-size: 10px;")
-              p.mb-0 <b>Mejor digestibilidad:</b> el almidón está parcialmente gelatinizado pero no sobre gelatinizado.
+              p.mb-0 <b>Mejor digestibilidad:</b> el almidón está parcialmente gelatinizado, pero no sobregelatinizado.
             li.d-flex.mb-2
               i.fas.fa-circle(style="color: #89A068; font-size: 10px;")
               p.mb-0 <b>Índice glucémico más bajo:</b> la digestión y absorción son más lentas.
@@ -171,7 +171,7 @@
           span Errores comunes en la cocción y su corrección
         .tabla-a.tb-custom.mb-3
           table
-            caption(style="font-weight: normal;") Nota. Adaptado de Bernasconi y Teubner (2004); Corporación Favorita (2018) y La Moderna (2005).
+            //- caption(style="font-weight: normal;") Nota. Adaptado de Bernasconi y Teubner (2004); Corporación Favorita (2018) y La Moderna (2005).
             thead
               tr
                 th Error

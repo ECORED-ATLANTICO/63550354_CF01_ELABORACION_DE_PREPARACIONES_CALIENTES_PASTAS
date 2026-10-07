@@ -30,7 +30,7 @@
       .col-lg-8.mb-0.mb-lg-0.order-2.order-lg-1
         p.mb-4 En algunas tumbas etruscas los arqueólogos han logrado identificar algo parecido a la pasta; y los árabes, descubridores de los beneficios del trigo duro mucho antes que los italianos, cocían finas láminas de pasta hace siglos. Ellos enrollaban la pasta, la exponían al sol para que se secara y, de esa manera, conservarla por más tiempo.
         .bg-color-02.p-4.br-15
-          p.mb-0 Según el libro <em>Italia al dente</em> (Corporación Favorita, 2018, p. 5), la comida italiana es creativa y llena de personalidad. Está marcada por un fuerte carácter regional que encierra largas tradiciones en las que el tomate, pastas, diversos tipos de queso, albahaca y el aceite de oliva son algunos de los ingredientes esenciales. Es común que a la comida italiana se la identifique por la pizza y las pastas, pero en realidad es absolutamente variada y cada región tiene su propia tradición culinaria.
+          p.mb-0 Según el libro Italia <em>al dente</em> (Corporación Favorita, 2018, p. 5), la comida italiana es creativa y llena de personalidad. Está marcada por un fuerte carácter regional que encierra largas tradiciones en las que el tomate, pastas, diversos tipos de queso, albahaca y el aceite de oliva son algunos de los ingredientes esenciales. Es común que a la comida italiana se la identifique por la pizza y las pastas, pero en realidad es absolutamente variada y cada región tiene su propia tradición culinaria.
       .col-lg-4.col-md-8.order-1.order-lg-2.mb-4.mb-lg-0
         figure
           img(src="@/assets/curso/tema3/img03.png", data-aos="zoom-in")
@@ -53,7 +53,6 @@
       LineaTiempoC.color-acento-contenido(text-small)
         .row.align-items-center.justify-content-center(titulo="Año 2000 a. C. (Aprox.)")
           .col-lg-7.mb-4.mb-lg-0
-            h4 Era Antigua y Orígenes - Año 2000 a. C. (Aprox.)
             p.mb-0 Se registran los primeros indicios arqueológicos de fideos de mijo en las cercanías del río Amarillo en China, estableciendo el antecedente más remoto de masas filamentosas en Asia.
           .col-lg-5.col-md-9
             figure
@@ -61,7 +60,6 @@
 
         .row.align-items-center.justify-content-center(titulo="Siglo IV a. C.")
           .col-lg-7.mb-4.mb-lg-0
-            h4 Siglo IV a. C.
             p.mb-0 Relieves en tumbas etruscas en Italia revelan herramientas (rodillos y cortadores) destinadas a triturar granos y mezclarlos con agua, evidenciando un desarrollo paralelo e independiente de la masa en el Mediterráneo.
           .col-lg-5.col-md-9
             figure
@@ -69,7 +67,6 @@
 
         .row.align-items-center.justify-content-center(titulo="Siglo I a. C. – Siglo I d. C.")
           .col-lg-7.mb-4.mb-lg-0
-            h4 Siglo I a. C. – Siglo I d. C.
             p.mb-0 En el Imperio Romano se populariza el <em>Lagana</em> (origen del término lasaña), que consistía en tiras planas de masa de trigo cocidas, consumidas principalmente de forma fresca.
           .col-lg-5.col-md-9
             figure
@@ -77,7 +74,6 @@
 
         .row.align-items-center.justify-content-center(titulo="Siglo IX")
           .col-lg-7.mb-4.mb-lg-0
-            h4 Edad Media e Intercambio Cultural - Siglo IX
             p.mb-0 Los árabes introducen técnicas avanzadas de secado de masa en Sicilia durante su expansión. Este hito es crítico, pues el secado permitió conservar y transportar la pasta para largos viajes, transformándola en un recurso comercial estratégico.
           .col-lg-5.col-md-9
             figure
@@ -85,7 +81,6 @@
 
         .row.align-items-center.justify-content-center(titulo="Año 1154")
           .col-lg-7.mb-4.mb-lg-0
-            h4 Año 1154
             p.mb-0 El geógrafo Al-Idrisi documenta por escrito la existencia de fábricas en Trabia (Sicilia) dedicadas a la producción a gran escala de <em>Itriyya</em> (tiras delgadas de masa seca), desmitificando la creencia de que Marco Polo trajo la pasta de China en el siglo XIII.
           .col-lg-5.col-md-9
             figure
@@ -93,7 +88,6 @@
 
         .row.align-items-center.justify-content-center(titulo="Siglo XIV")
           .col-lg-7.mb-4.mb-lg-0
-            h4 Siglo XIV
             p.mb-0 Aparece el primer libro de recetas italiano que incluye una referencia explícita a los "<em>maccaroni siciliani</em>", consolidando el estatus de la pasta en el recetario formal europeo.
           .col-lg-5.col-md-9
             figure
@@ -101,7 +95,6 @@
 
         .row.align-items-center.justify-content-center(titulo="Siglo XVI")
           .col-lg-7.mb-4.mb-lg-0
-            h4 Consolidación y Adopción Social (Edad Moderna) - Siglo XVI
             p.mb-0 Se consolida de forma definitiva la tradición de la pasta en Italia. Pasa de ser un artículo de lujo para la nobleza a integrarse en las mesas populares debido a su bajo costo y alta durabilidad.
           .col-lg-5.col-md-9
             figure
@@ -109,7 +102,6 @@
 
         .row.align-items-center.justify-content-center(titulo="Siglo XVII")
           .col-lg-7.mb-4.mb-lg-0
-            h4 Siglo XVII
             p.mb-0 En Nápoles ocurre una revolución culinaria masiva; la pasta se convierte en la base de la alimentación del pueblo y comienzan a proliferar los gremios de <em>maestri artigiani</em> (maestros fideeros).
           .col-lg-5.col-md-9
             figure
@@ -117,7 +109,6 @@
 
         .row.align-items-center.justify-content-center(titulo="Siglo XVIII")
           .col-lg-7.mb-4.mb-lg-0
-            h4 Industrialización y Globalización (Edad Contemporánea) - Siglo XVIII
             p.mb-0 Se introducen prensas mecánicas e industriales de bronce en Nápoles, permitiendo la producción estandarizada de docenas de formas diferentes (extrusión) y acelerando su exportación masiva.
           .col-lg-5.col-md-9
             figure
@@ -125,7 +116,6 @@
 
         .row.align-items-center.justify-content-center(titulo="Año 1891")
           .col-lg-7.mb-4.mb-lg-0
-            h4 Año 1891
             p.mb-0 Se publica "<em>La Scienza in cucina e l'arte di mangiar bene</em>" de Pellegrino Artusi, obra cumbre que unifica la identidad gastronómica de Italia a través de la codificación formal de las recetas regionales de pasta.
           .col-lg-5.col-md-9
             figure
@@ -133,7 +123,6 @@
 
         .row.align-items-center.justify-content-center(titulo="Siglo XX en adelante")
           .col-lg-7.mb-4.mb-lg-0
-            h4 Siglo XX en adelante
             p.mb-0 Oleadas migratorias llevan la tradición de la pasta a toda América y el resto del mundo. Se convierte en un alimento básico global, protegido en lugares como Italia por leyes estrictas que regulan que la pasta seca solo debe elaborarse con sémola de trigo duro.
           .col-lg-5.col-md-9
             figure
@@ -169,6 +158,7 @@
         figure
           img(src="@/assets/curso/tema3/img18.png", data-aos="zoom-in")
 
+    h4.text-center.mb-4 El grano de trigo duro (<em>Triticum durum</em>) se compone de varias capas:
     .row.mb-5.justify-content-center
       .col-md-12.col-lg-4.mb-4.mb-lg-0
         .tarjeta-avatar
@@ -195,7 +185,7 @@
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.3 Clasificación de las pastas
 
-    p.mb-4 Según el libro <em>Italia al dente</em> (Corporación Favorita, 2018, p. 11), las pastas son las reinas de la gastronomía italiana. Se clasifican en cortas, largas, rellenas; secas y frescas. Existen varias clases de pastas que varían de acuerdo a su grosor o figura.
+    p.mb-4 Según el libro Italia <em>al dente</em> (Corporación Favorita, 2018, p. 11), las pastas son las reinas de la gastronomía italiana. Se clasifican en cortas, largas, rellenas; secas y frescas. Existen varias clases de pastas que varían de acuerdo a su grosor o figura.
 
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-4.col-md-8.mb-5.mb-lg-0

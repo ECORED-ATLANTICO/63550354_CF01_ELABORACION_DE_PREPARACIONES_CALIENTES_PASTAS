@@ -16,7 +16,7 @@
       .col-lg-auto.d-none.d-lg-block
         img(src="@/assets/curso/tema1/img02.svg", style="max-width: 90px").mx-auto
       .col-lg
-        p.mb-0 Por otro lado la receta estándar es un documento técnico fundamental en la gestión de cocinas profesionales. Su correcta interpretación permite estandarizar preparaciones, controlar costos y garantizar la consistencia de los productos ofrecidos al cliente. Este capítulo explora el concepto, la importancia y las operaciones básicas que constituyen el <em>mise en place</em>, así como las herramientas, utensilios esenciales, la estructura de la receta estándar, los factores de conversión para escalar recetas y la estandarización de porciones.
+        p.mb-0 Por otro lado, la receta estándar es un documento técnico fundamental en la gestión de cocinas profesionales. Su correcta interpretación permite estandarizar preparaciones, controlar costos y garantizar la consistencia de los productos ofrecidos al cliente. Este capítulo explora el concepto, la importancia y las operaciones básicas que constituyen el <em>mise en place</em>, así como las herramientas, utensilios esenciales, la estructura de la receta estándar, los factores de conversión para escalar recetas y la estandarización de porciones.
 
     separador
     
@@ -115,7 +115,7 @@
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 1.3 Procedimientos básicos en la cocina
 
-    p.mb-4 Las procedimientos básicos en la cocina son los procedimientos fundamentales que todo profesional gastronómico debe dominar para ejecutar un <em>mise en place</em> eficiente. Estas operaciones incluyen:
+    p.mb-4 Los procedimientos básicos en la cocina comprenden las operaciones fundamentales que todo profesional gastronómico debe dominar para ejecutar un <em>mise en place</em> eficiente. Estas operaciones incluyen:
 
     
     .bg-color-03.p-4.br-15.mb-5
@@ -133,7 +133,6 @@
           span Cortes básicos en cocina profesional
         .tabla-a.color-acento-contenido.tb-custom.mb-0
           table
-            caption(style="font-weight: normal;") Nota. SENA, (2026).
             thead
               tr
                 th Denominación
@@ -268,7 +267,7 @@
     separador
 
     #t_1_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 1.5 Estructura de la receta estándar
+      h2 1.5 Estructura de una receta estándar
 
   
     .bg-color-07.p-4.br-15.mb-5
@@ -286,7 +285,6 @@
           span Componentes de una receta estándar
         .tabla-a.color-acento-contenido.tb-custom.mb-0
           table
-            caption(style="font-weight: normal;") Nota. SENA, (2026).
             thead
               tr
                 th Componente
@@ -413,7 +411,6 @@
           span Ejemplo de ficha técnica de costos para pasta fresca
         .tabla-a.color-acento-contenido.tb-custom.mb-0
           table
-            caption(style="font-weight: normal;") Nota. SENA, (2026).
             thead
               tr
                 th Ingrediente

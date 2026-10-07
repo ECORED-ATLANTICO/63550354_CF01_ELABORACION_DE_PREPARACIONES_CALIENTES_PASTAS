@@ -69,7 +69,7 @@ export default {
           },
           {
             numero: '1.5',
-            titulo: 'Estructura de la receta estándar',
+            titulo: 'Estructura de una receta estándar',
             hash: 't_1_5',
           },
           {
@@ -254,7 +254,7 @@ export default {
   },
   glosario: [
     {
-      termino: 'Al dente',
+      termino: '<em>Al dente</em>',
       significado:
         'Punto de cocción de la pasta en que ofrece resistencia al morderla; del italiano "al diente".',
     },
@@ -264,7 +264,7 @@ export default {
         'Buenas Prácticas de Manufactura; conjunto de normas y procedimientos para garantizar la inocuidad de los alimentos.',
     },
     {
-      termino: 'Chitarra',
+      termino: '<em>Chitarra</em>',
       significado:
         'Marco de madera con cuerdas metálicas tensadas utilizado para cortar espaguetis de sección cuadrada.',
     },
@@ -284,12 +284,12 @@ export default {
         'Número que se obtiene al dividir las porciones deseadas entre las porciones originales de una receta, utilizado para escalar cantidades.',
     },
     {
-      termino: 'Lasaña (lasagne)',
+      termino: 'Lasaña (<em>lasagne</em>)',
       significado:
         'Láminas de pasta rectangular que se intercalan con capas de salsa, queso y otros ingredientes para hornear.',
     },
     {
-      termino: 'Mantecatura',
+      termino: '<em>Mantecatura</em>',
       significado:
         'Técnica de mezclar la pasta recién cocida con la salsa en la sartén, incorporando agua de cocción para lograr una textura cremosa y una integración perfecta de sabores.',
     },
@@ -299,19 +299,19 @@ export default {
         'Expresión francesa que significa "poner en su lugar"; conjunto de operaciones de alistamiento previas a la elaboración de alimentos.',
     },
     {
-      termino: "Pasta fresca all'uovo",
+      termino: "Pasta fresca <em>all'uovo</em>",
       significado:
         'Pasta elaborada con harina de trigo de baja fuerza y huevos, de cocción rápida (2-4 minutos) y textura tierna.',
     },
     {
-      termino: 'Pasta seca (pasta secca)',
+      termino: 'Pasta seca (<em>pasta secca</em>)',
       significado:
         'Pasta elaborada con sémola de trigo duro y agua, sometida a secado controlado, de cocción más larga (8-12 minutos).',
     },
     {
-      termino: 'Penne',
+      termino: '<em>Penne</em>',
       significado:
-        'Pasta corta en forma de tubo con corte oblicuo; de la palabra italiana penna (pluma).',
+        'Pasta corta en forma de tubo con corte oblicuo; de la palabra italiana <em>penna</em> (pluma).',
     },
     {
       termino: 'POES',
@@ -319,14 +319,14 @@ export default {
         'Procedimientos operativos estandarizados de saneamiento; documentos que describen paso a paso las actividades de limpieza y desinfección.',
     },
     {
-      termino: 'Ragù',
+      termino: '<em>Ragù</em>',
       significado:
-        'Salsa de carne de cocción lenta, típicamente utilizada para pastas; el más famoso es el ragù bolognese.',
+        'Salsa de carne de cocción lenta, típicamente utilizada para pastas; el más famoso es el <em>ragù bolognese</em>.',
     },
     {
-      termino: 'Ravioli',
+      termino: '<em>Ravioli</em>',
       significado:
-        'Pasta rellena cuadrada, una de las formas más comunes de pasta ripiena (pasta rellena).',
+        'Pasta rellena cuadrada, una de las formas más comunes de <em>pasta ripiena</em> (pasta rellena).',
     },
     {
       termino: 'Receta estándar',
@@ -334,18 +334,19 @@ export default {
         'Documento técnico que contiene información detallada sobre ingredientes, cantidades, procedimientos, tiempos de cocción, rendimiento y costos de una preparación específica.',
     },
     {
-      termino: 'Sfoglia',
+      termino: '<em>Sfoglia</em>',
       significado:
         'Lámina de masa estirada utilizada para cortar pastas o como base para pastas rellenas.',
     },
     {
-      termino: 'Spaghetti',
-      significado: 'Pasta larga, redonda y fina; del italiano spago (cordel).',
+      termino: '<em>Spaghetti</em>',
+      significado:
+        'Pasta larga, redonda y fina; del italiano <em>spago</em> (cordel).',
     },
     {
-      termino: 'Tortellini',
+      termino: '<em>Tortellini</em>',
       significado:
-        'Pasta rellena en forma de anillo o pequeño sombrero, tradicional del servicio en caldo (tortellini in brodo).',
+        'Pasta rellena en forma de anillo o pequeño sombrero, tradicional del servicio en caldo (<em>tortellini in brodo</em>).',
     },
   ],
   referencias: [
