@@ -203,7 +203,7 @@
     .row.justify-content-center.mb-4
       .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-          h5 Tabla 7.
+          h5.text-bold.mb-0 Tabla 7.
           span Principales formas de pasta y sus aplicaciones
         .tabla-a.tb-custom.mb-3
           table

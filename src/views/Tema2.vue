@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero.bg-color-13
         span(style="color: #12263F !important") 2
-      h1 Higiene, BPM y Seguridad Ocupacional
+      h1 Higiene, BPM y seguridad ocupacional
 
 
     img(src="@/assets/curso/tema2/img01.png", alt="")
