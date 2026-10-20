@@ -171,13 +171,13 @@
           img(src='@/assets/curso/tema3/img19.svg' alt='')
           .tarjeta.bg-color-03
             .p-4
-              p.mb-0 #[b B. Capa de salvado (Pericarpio y aleurona):] es la cubierta exterior protectora del grano (cerca del 14 % de su peso). Está compuesta principalmente por fibra dietética, vitaminas del complejo B y minerales. Se elimina en la refinación y se conserva en los productos integrales.
+              p.mb-0 #[b B. Capa de salvado (pericarpio y aleurona):] es la cubierta exterior protectora del grano (cerca del 14 % de su peso). Está compuesta principalmente por fibra dietética, vitaminas del complejo B y minerales. Se elimina en la refinación y se conserva en los productos integrales.
       .col-md-12.col-lg-4.mb-0.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema3/img19.svg' alt='')
           .tarjeta.bg-color-03
             .p-4
-              p.mb-0 #[b C. Germen (o Embrión):] es el núcleo reproductivo del grano ubicado en la base (alrededor del 2.5 % a 3 % de su peso). Es rico en grasas saludables (aceites esenciales), vitamina E, proteínas de alta calidad y enzimas. Al contener grasas, suele retirarse en las harinas refinadas para evitar que se rancien rápidamente.
+              p.mb-0 #[b C. Germen (o embrión):] es el núcleo reproductivo del grano ubicado en la base (alrededor del 2.5 % a 3 % de su peso). Es rico en grasas saludables (aceites esenciales), vitamina E, proteínas de alta calidad y enzimas. Al contener grasas, suele retirarse en las harinas refinadas para evitar que se rancien rápidamente.
 
     .separador-container.m-0
       .separador

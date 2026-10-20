@@ -448,7 +448,7 @@ export default {
         },
         {
           nombre: 'Laura Daniela Burgos Rueda',
-          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
+          cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
