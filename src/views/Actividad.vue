@@ -95,7 +95,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Correcto. El <em>mise en place</em> reduce el desperdicio de alimentos, no lo aumenta, ya que permite planificar las cantidades exactas necesarias para cada servicio.',
+            'El <em>mise en place</em> reduce el desperdicio de alimentos, no lo aumenta, ya que permite planificar las cantidades exactas necesarias para cada servicio.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -198,7 +198,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Correcto. La <em>Salmonella spp.</em> se encuentra comúnmente en huevos, pollo y mayonesa casera, y sus síntomas incluyen diarrea, fiebre y vómito.',
+            'La <em>Salmonella spp.</em> se encuentra comúnmente en huevos, pollo y mayonesa casera, y sus síntomas incluyen diarrea, fiebre y vómito.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -332,7 +332,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Correcto. La cantidad mínima recomendada es de 1 litro de agua por cada 120 gramos de pasta. Usar más agua ayuda a mantener la temperatura constante durante la cocción.',
+            'La cantidad mínima recomendada es de 1 litro de agua por cada 120 gramos de pasta. Usar más agua ayuda a mantener la temperatura constante durante la cocción.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -430,7 +430,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Correcto. Los <em>ravioli</em> son una pasta rellena, generalmente en forma de cuadrados, que pueden contener queso, carne, espinacas u otros ingredientes.',
+            'Los <em>ravioli</em> son una pasta rellena, generalmente en forma de cuadrados, que pueden contener queso, carne, espinacas u otros ingredientes.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -533,7 +533,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Correcto. La pasta seca (<em>pasta secca</em>) se elabora con sémola de trigo duro y agua, se seca controladamente y tiene una cocción más larga (8-12 minutos).',
+            'La pasta seca (<em>pasta secca</em>) se elabora con sémola de trigo duro y agua, se seca controladamente y tiene una cocción más larga (8-12 minutos).',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -570,7 +570,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Correcto. El sistema completo de colores para tablas de cortar es: rojo: carnes rojas; marrón: productos cocinados; amarillo: carnes blancas; azul: pescados y mariscos; verde: frutas y verduras; blanco: pastas, quesos (lácteos) y pan.',
+            'El sistema completo de colores para tablas de cortar es: rojo: carnes rojas; marrón: productos cocinados; amarillo: carnes blancas; azul: pescados y mariscos; verde: frutas y verduras; blanco: pastas, quesos (lácteos) y pan.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -639,7 +639,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Correcto. La <em>sfoglia</em> es la lámina de masa estirada que se obtiene después del laminado y que se utiliza para cortar diferentes tipos de pasta o como base para pastas rellenas como <em>ravioli</em> o <em>tortellini</em>.',
+            'La <em>sfoglia</em> es la lámina de masa estirada que se obtiene después del laminado y que se utiliza para cortar diferentes tipos de pasta o como base para pastas rellenas como <em>ravioli</em> o <em>tortellini</em>.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
@@ -707,7 +707,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Correcto. Las <em>stelline</em> son pastas en forma de estrellitas, clasificadas dentro de las "pastas para sopa" junto con los <em>ditalini</em>, y se utilizan en sopas de verduras, caldos y <em>minestrone</em>.',
+            'Las <em>stelline</em> son pastas en forma de estrellitas, clasificadas dentro de las "pastas para sopa" junto con los <em>ditalini</em>, y se utilizan en sopas de verduras, caldos y <em>minestrone</em>.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
