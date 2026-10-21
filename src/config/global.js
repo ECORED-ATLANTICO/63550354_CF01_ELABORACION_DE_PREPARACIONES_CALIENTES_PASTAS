@@ -238,7 +238,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/63550354_CF01_CFA.pdf',
+        download: 'downloads/63550354_CF01_CFA.zip',
       },
       {
         icono: 'fas fa-download',

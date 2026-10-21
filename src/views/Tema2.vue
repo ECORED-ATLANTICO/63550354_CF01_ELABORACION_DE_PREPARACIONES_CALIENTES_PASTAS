@@ -456,7 +456,7 @@
               h4 Caso práctico. Accidente laboral
               p.mb-0 A manera de ejemplo práctico, le compartimos el siguiente caso en el cual se aplica el protocolo a seguir en un accidente laboral.
             .col-lg-auto.mt-3.mt-lg-0
-              a.boton.color-acento-botones(:href="obtenerLink('downloads/anexo/anexo_caso_practico_accidente_laboral.pdf')", target="_blank")
+              a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos/Anexo1_Caso_practico_accidente_laboral.pdf')", target="_blank")
                 span Ir al recurso
 
 </template>
