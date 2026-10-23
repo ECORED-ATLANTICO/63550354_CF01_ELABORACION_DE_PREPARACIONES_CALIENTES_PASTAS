@@ -193,7 +193,7 @@
           img(src='@/assets/curso/tema3/img20.png' alt='' data-aos="zoom-in")
       .col-lg-8
         .bg-color-12.p-3.br-15.mb-4.mb-lg-3
-          p.mb-0 <b>Pasta fresca casera (<em>pasta fresca all'uovo</em>):</b> elaborada con harina de trigo de baja fuerza (tipo 405) y huevos. Tiene un sabor más suave y una textura tierna. Su tiempo de cocción es corto (2-4 minutos). Debe consumirse en el día de su elaboración o refrigerarse por máximo 2 días (Bernasconi & Teubner, 2004).
+          p.mb-0 <b>Pasta fresca casera (pasta fresca <em>all'uovo</em>):</b> elaborada con harina de trigo de baja fuerza (tipo 405) y huevos. Tiene un sabor más suave y una textura tierna. Su tiempo de cocción es corto (2-4 minutos). Debe consumirse en el día de su elaboración o refrigerarse por máximo 2 días (Bernasconi & Teubner, 2004).
         .bg-color-12.p-3.br-15.mb-4.mb-lg-3
           p.mb-0 <b>Pasta fresca industrial:</b> similar a la casera, pero elaborada con procesos mecánicos y conservantes que prolongan su vida útil.
         .bg-color-12.p-3.br-15

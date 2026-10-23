@@ -144,7 +144,7 @@
                 td.text-center 2 x 2 x 2 mm
                 td.text-center Guarniciones finas, salsas, sopas
               tr
-                td.fw-bold.text-center <em>Juliana</em>
+                td.fw-bold.text-center Juliana
                 td.text-center 3-4 cm x 1-2 mm x 1-2 mm
                 td.text-center Guarniciones, salteados
               tr
@@ -252,7 +252,7 @@
           div(titulo="Mandolina")
             .row.align-items-center.justify-content-center
               .col-lg-8.mb-4.mb-lg-0.order-1.order-lg-1
-                p.mb-0 Utensilio para cortes uniformes de verduras (<em>juliana</em>, <em>brunoise</em>, rodajas). Ajuste de espesor regulable. Usar siempre con guante de malla de seguridad.
+                p.mb-0 Utensilio para cortes uniformes de verduras (juliana, <em>brunoise</em>, rodajas). Ajuste de espesor regulable. Usar siempre con guante de malla de seguridad.
               .col-lg-4.col-md-8.mb-0.mb-lg-0.order-2.order-lg-2
                 figure
                   img(src="@/assets/curso/tema1/img19.png", data-aos="zoom-in")

@@ -27,12 +27,12 @@
           img(src="@/assets/curso/tema4/img02.png", data-aos="zoom-in")
       .col-lg-7.order-1.order-lg-1
         LineaTiempoD.color-2
-          p(numero="1" titulo="Cantidad de agua") La forma más recomendable para cocinar las pastas es con abundante cantidad de agua y un poco de sal. Aproximadamente se requiere un litro de agua por cada 120 gramos de pasta. Si se usa más agua es mejor, porque así es más fácil mantener la temperatura constante durante la cocción (Corporación Favorita, 2018, p. 12).
-          p(numero="2" titulo="Sal") Calcular 10 g de sal (una cucharadita rasa) por cada litro de agua. La sal se añade cuando el agua ya está hirviendo, antes de incorporar la pasta.
-          p(numero="3" titulo="Aceite de oliva") El aceite solo se agrega al agua en ciertos casos, por ejemplo, en láminas de pasta grandes (como las de lasaña) o en pastas frescas y delgadas que de otro modo se apelmazarían. Generalmente se usa con las pastas largas y planas como la lasaña porque tienden a pegarse. Se añade un poco de aceite en el agua de la cocción y se colocan las placas una a una (Corporación Favorita, 2018, p. 12).
-          p(numero="4" titulo="Temperatura inicial") Antes de poner la pasta en la cacerola, el agua debe estar hirviendo a borbotones (100 °C al nivel del mar).
-          p(numero="5" titulo="Técnica de incorporación") Las pastas largas (como los espaguetis) se sumergen en el agua y, a medida que se ablandan, se empujan hacia abajo con un tenedor de madera. Las pastas cortas se echan directamente en el agua hirviendo.
-          p(numero="6" titulo="Remoción") Se revuelve la pasta durante los primeros segundos de cocción para evitar que se pegue. Luego, se remueve ocasionalmente hasta el final de la cocción.
+          p(numero="A" titulo="Cantidad de agua") La forma más recomendable para cocinar las pastas es con abundante cantidad de agua y un poco de sal. Aproximadamente se requiere un litro de agua por cada 120 gramos de pasta. Si se usa más agua es mejor, porque así es más fácil mantener la temperatura constante durante la cocción (Corporación Favorita, 2018, p. 12).
+          p(numero="B" titulo="Sal") Calcular 10 g de sal (una cucharadita rasa) por cada litro de agua. La sal se añade cuando el agua ya está hirviendo, antes de incorporar la pasta.
+          p(numero="C" titulo="Aceite de oliva") El aceite solo se agrega al agua en ciertos casos, por ejemplo, en láminas de pasta grandes (como las de lasaña) o en pastas frescas y delgadas que de otro modo se apelmazarían. Generalmente se usa con las pastas largas y planas como la lasaña porque tienden a pegarse. Se añade un poco de aceite en el agua de la cocción y se colocan las placas una a una (Corporación Favorita, 2018, p. 12).
+          p(numero="D" titulo="Temperatura inicial") Antes de poner la pasta en la cacerola, el agua debe estar hirviendo a borbotones (100 °C al nivel del mar).
+          p(numero="E" titulo="Técnica de incorporación") Las pastas largas (como los espaguetis) se sumergen en el agua y, a medida que se ablandan, se empujan hacia abajo con un tenedor de madera. Las pastas cortas se echan directamente en el agua hirviendo.
+          p(numero="F" titulo="Remoción") Se revuelve la pasta durante los primeros segundos de cocción para evitar que se pegue. Luego, se remueve ocasionalmente hasta el final de la cocción.
         
 
     separador
@@ -112,7 +112,7 @@
       p.mb-0 Bernasconi y Teubner (2004, p. 109) señalan que únicamente probando la pasta se puede comprobar cuándo está <em>al dente</em>.
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-color-06")
-      .row(titulo="Características de la pasta al dente")
+      .row(titulo="Características de la pasta <em>al dente</em>")
         .col-lg-7.mb-4.mb-lg-0
           ul.lista-ul--color.mb-0.ms-0.ms-lg-5
             li.d-flex.mb-2
@@ -131,7 +131,7 @@
           figure
             img(src="@/assets/curso/tema4/img06.png", data-aos="zoom-in")
 
-      .row(titulo="Beneficios de cocinar la pasta al dente")
+      .row(titulo="Beneficios de cocinar la pasta <em>al dente</em>")
         .col-lg-7.mb-4.mb-lg-0
           ul.lista-ul--color.mb-0.ms-0.ms-lg-5
             li.d-flex.mb-2

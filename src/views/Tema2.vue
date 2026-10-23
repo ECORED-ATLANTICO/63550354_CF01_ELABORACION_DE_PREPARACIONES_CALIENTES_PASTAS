@@ -245,12 +245,12 @@
           img(src="@/assets/curso/tema2/img21.png", data-aos="zoom-in")
       .col-lg-7.order-1.order-lg-1
         LineaTiempoD.color-secundario.color-2
-          p(numero="1" titulo="Prelavado") Eliminar residuos sólidos con agua y cepillo.
-          p(numero="2" titulo="Lavado") Aplicar detergente con agua caliente (>40 °C), frotar con esponja o cepillo.
-          p(numero="3" titulo="Enjuague") Retirar completamente el detergente con agua potable.
-          p(numero="4" titulo="Desinfección") Aplicar solución clorada (50-100 ppm de cloro activo) durante 1-2 minutos.
-          p(numero="5" titulo="Enjuague final") Enjuagar con agua potable para eliminar residuos de cloro (excepto si el fabricante indica lo contrario).
-          p(numero="6" titulo="Secado") Secar al aire o con papel desechable (no usar paños reutilizables).
+          p(numero="A" titulo="Prelavado") Eliminar residuos sólidos con agua y cepillo.
+          p(numero="B" titulo="Lavado") Aplicar detergente con agua caliente (>40 °C), frotar con esponja o cepillo.
+          p(numero="C" titulo="Enjuague") Retirar completamente el detergente con agua potable.
+          p(numero="D" titulo="Desinfección") Aplicar solución clorada (50-100 ppm de cloro activo) durante 1-2 minutos.
+          p(numero="E" titulo="Enjuague final") Enjuagar con agua potable para eliminar residuos de cloro (excepto si el fabricante indica lo contrario).
+          p(numero="F" titulo="Secado") Secar al aire o con papel desechable (no usar paños reutilizables).
         
     p.mb-4.mt-4 Una vez definida la secuencia higiénica de seis pasos, el éxito operativo del plan POES radica en aplicar las concentraciones químicas correctas según la criticidad de cada área. A continuación, se presenta un consolidado técnico que detalla las soluciones desinfectantes obligatorias, los niveles específicos de partes por millón (ppm) y los tiempos mínimos de exposición estipulados para resguardar la inocuidad en cada elemento de la planta.
 
